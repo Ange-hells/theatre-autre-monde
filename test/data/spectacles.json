@@ -1,0 +1,238 @@
+{
+  "company": {
+    "name": "Théâtre de l'Autre Monde",
+    "shortName": "TAM",
+    "tagline": "Spectacles multigénérationnels",
+    "description": "Spectacles de marionnettes de 6 mois à 99 ans, en salle ou en rue.",
+    "contact": {
+      "person": "Stéphane THOMASSET",
+      "address": "3 rue du Docteur Amodru, 26240 Saint-Vallier",
+      "phone": "04 75 23 41 73",
+      "email": "contact@theatreautremonde.fr"
+    },
+    "years": "2002 – 2026"
+  },
+  "spectacles": [
+    {
+      "id": "bergerac",
+      "title": "Bergerac",
+      "type": "Jeu d'acteur, Théâtre d'objet, Marionnettes sur table",
+      "category": ["spectacles", "rue"],
+      "shortDescription": "Redécouvrez la célèbre histoire de Cyrano de Bergerac de façon déjantée, pleine d'humour et de dérision. Tout Cyrano en 50 minutes.",
+      "fullDescription": [
+        "Il est là, debout, tel un mousquetaire, pour nous conter l'histoire de Cyrano de Bergerac, célèbre bataileur du 17ème siècle qui prit vie sous la plume d'Edmond Rostand.",
+        "Seul en scène, il a pour mission de nous faire vivre cette comédie héroïque en moins d'une heure !",
+        "Alors, dans un sprint littéraire, il s'emballe, interprète certains personnages, prend des objets pour en illustrer d'autres, interpelle le public, combat à l'épée…",
+        "Dans un décor épuré, il nous offre une vision burlesque et clownesque de cette aventure dans un spectacle déjanté, plein d'humour et de dérision et dont personne ne sortira indemne !!"
+      ],
+      "duration": "50 minutes",
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/bergerac.jpg",
+      "page": "spectacle-bergerac.html",
+      "technicalSheet": null
+    },
+    {
+      "id": "doudou",
+      "title": "Dis-moi, Doudou… ?",
+      "type": "Marionnettes à manipulations diverses",
+      "category": ["spectacles"],
+      "shortDescription": "« Dis-moi Doudou ? Qu'est-ce que toi tu fais pendant que moi je dors ? » Un spectacle plein de tendresse et de douceur pour les enfants à partir de 6 mois.",
+      "fullDescription": [
+        "Cette nuit, les doudous de bébé n'ont pas envie de dormir. Ils veulent plutôt faire la fête.",
+        "Heureusement, le marchand de sable est là : il veille au grain !",
+        "Tout le monde va pouvoir tomber dans un profond sommeil, là où le rêve est roi !",
+        "Un spectacle plein de tendresse et de douceur pour les enfants à partir de 4 mois."
+      ],
+      "duration": null,
+      "age": "À partir de 4-6 mois",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/doudou.jpg",
+      "page": "spectacle-doudou.html",
+      "technicalSheet": null
+    },
+    {
+      "id": "entre-acte",
+      "title": "L'Entre Acte",
+      "type": "Spectacle surprise / Marionnettes à tringles",
+      "category": ["spectacles", "entre-sort", "rue"],
+      "shortDescription": "Ambiance Cabaret et Music-Hall d'époque. Assistez à une véritable revue en pleine rue ! Un mini spectacle de marionnettes à voir et à revoir absolument !",
+      "fullDescription": [
+        "Ambiance Cabaret et Music-Hall d'époque, assistez à une véritable revue en pleine rue !",
+        "Comment ?? C'est complet et vous n'avez pas de billet ?",
+        "Demandez à Emilien, il vous trouvera une solution…",
+        "Ouvrez le volet et osez regarder par la fenêtre !",
+        "Un mini spectacle surprise composé de trois scénarios différents joués de façon aléatoire, à voir et à revoir absolument !"
+      ],
+      "duration": null,
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/entre-acte.jpg",
+      "page": "spectacle-entre-acte.html",
+      "technicalSheet": null
+    },
+    {
+      "id": "miroir",
+      "title": "Miroir, mon beau miroir",
+      "type": "Marionnettes à main prenante",
+      "category": ["spectacles"],
+      "shortDescription": "Tancrède, le mage est amoureux de la belle princesse Isabeau. Seulement, lui n’est pas beau ! Un spectacle à mi-chemin entre Quasimodo et Cyrano de Bergerac.",
+      "fullDescription": [
+        "Tancrède le mage est amoureux de la belle princesse Isabeau.",
+        "Seulement, lui, n'est pas beau !",
+        "Et s'il changeait d'apparence pour que la princesse l'aime en retour ?",
+        "Mais il faut faire vite : elle doit choisir son mari demain !",
+        "Un spectacle à mi-chemin entre Quasimodo et Cyrano de Bergerac."
+      ],
+      "duration": "45 minutes",
+      "age": "À partir de 5 ans",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/miroir.jpg",
+      "page": "spectacle-miroir.html",
+      "technicalSheet": {
+        "age": "à partir de 5 ans",
+        "duration": "45 minutes",
+        "capacity": "300 personnes",
+        "stageMin": "4m × 4m",
+        "team": "1 personne",
+        "setup": "90 minutes",
+        "teardown": "45 minutes",
+        "notes": ["Obscurité indispensable", "Totalement autonome en son et en lumière"]
+      }
+    },
+    {
+      "id": "circus-mania",
+      "title": "Circus Mania",
+      "type": "Marionnettes à manipulations diverses",
+      "category": ["spectacles"],
+      "shortDescription": "Circus Mania vous accueille pour une représentation unique avec des numéros exceptionnels que vous n'avez jamais vus et que vous ne reverrez plus jamais dans votre vie.",
+      "fullDescription": [
+        "Circus Mania vous accueille pour une représentation unique avec des numéros exceptionnels que vous n'avez jamais vus et que vous ne reverrez plus jamais dans votre vie."
+      ],
+      "duration": null,
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/circus.jpg",
+      "page": null,
+      "technicalSheet": null
+    },
+    {
+      "id": "astronaute",
+      "title": "L'Astronaute",
+      "type": "Marionnettes sur table",
+      "category": ["spectacles"],
+      "shortDescription": "Jules, cinq ans, pense que tout est mieux ailleurs que chez lui. Prenez place, attachez-vous bien et rejoignez le voyage fabuleux de Jules à travers l’univers.",
+      "fullDescription": [
+        "Jules, cinq ans, pense que tout est mieux ailleurs que chez lui.",
+        "Un homme a marché sur la lune ? Il décide de faire encore mieux.",
+        "Aidé de son « ange gardien » Crébuzon, il construit une fusée et part en voyage dans l'espace.",
+        "Au fil des planètes qu'il visite, il va rencontrer de nombreux personnages, tantôt drôles, tantôt étranges, voire dangereux !",
+        "Prenez place, attachez-vous bien et rejoignez le voyage fabuleux de Jules à travers l'univers."
+      ],
+      "duration": null,
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/astronaute.jpg",
+      "page": "spectacle-astronaute.html",
+      "technicalSheet": null
+    },
+    {
+      "id": "grand-cirque",
+      "title": "Le plus grand cirque du monde !",
+      "type": "Manipulations diverses, jonglage et jeu d'acteur",
+      "category": ["spectacles"],
+      "shortDescription": "Oyez ! Oyez ! Braves gens. Bonjour et bienvenus à l'ultime représentation du plus grand cirque du monde…",
+      "fullDescription": [
+        "Oyez ! Oyez ! Braves gens. Bonjour et bienvenus à l'ultime représentation du plus grand cirque du monde. Ce soir, ici, vous verrez des numéros époustouflants, des numéros uniques encore jamais vus nulle part sur la planète."
+      ],
+      "duration": null,
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/cirque-monde.jpg",
+      "page": null,
+      "technicalSheet": null
+    },
+    {
+      "id": "pere-noel",
+      "title": "À la recherche du Père Noël",
+      "type": "Marionnettes à gaine",
+      "category": ["spectacles"],
+      "shortDescription": "Le Père Noël a disparu ! Fatigué des enfants pas assez sages… une quête initiatique autour de la magie de Noël.",
+      "fullDescription": [
+        "Le Père Noël a disparu !",
+        "Fatigué des enfants pas assez sages et qui demandent toujours plus de cadeaux, il a décidé de prendre sa retraite et de s'en aller au soleil…",
+        "Poudre d'or, le plus magique des lutins magiques du Père Noël décide de partir à sa recherche afin de le faire changer d'avis.",
+        "Une quête initiatique autour des 4 éléments pour retrouver la magie de Noël et ses valeurs : entraide, partage, gratitude, innocence, persévérance et confiance en soi."
+      ],
+      "duration": null,
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/pere-noel.jpg",
+      "page": "spectacle-pere-noel.html",
+      "technicalSheet": null
+    },
+    {
+      "id": "la-fontaine",
+      "title": "Si La Fontaine m'était conté ?",
+      "type": "Spectacle de conte",
+      "category": ["entre-sort"],
+      "shortDescription": "Entrez dans la demeure de Jean de La Fontaine et découvrez une de ses célèbres fables. Un spectacle de conte intimiste et décalé.",
+      "fullDescription": [
+        "Entrez dans la demeure de Jean de La Fontaine et découvrez une de ses célèbres fables.",
+        "Un spectacle de conte intimiste et décalé autour des fables de Jean de La Fontaine."
+      ],
+      "duration": null,
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/la-fontaine.jpg",
+      "page": null,
+      "technicalSheet": null
+    },
+    {
+      "id": "micro-circus",
+      "title": "Micro Circus",
+      "type": "Version courte de Circus Mania – Marionnettes et théâtre d'objet",
+      "category": ["entre-sort"],
+      "shortDescription": "Envie d'assister à un spectacle de cirque qui va vous laisser sans voix… Alors bienvenue dans notre Micro Circus !",
+      "fullDescription": [
+        "Mesdames et Messieurs, bienvenue pour une représentation unique avec des numéros exceptionnels que vous n'avez jamais vus et que vous ne reverrez jamais plus dans votre vie.",
+        "Entrez ! Entrez !",
+        "Venez, notre ami Sergio est là pour vous accueillir avec toute sa bonne humeur et sa sympathie avant de vous laisser aux bons soins de son frère jumeau : Gustave qui, croyez-moi, vous présentera un spectacle auquel vous ne vous attendez absolument pas.",
+        "Alors, bien venu pour une représentation exceptionnelle de : Micro Circus"
+      ],
+      "duration": null,
+      "age": "Tout public",
+      "creator": "Stéphane THOMASSET",
+      "image": "assets/micro-circus.jpg",
+      "page": null,
+      "technicalSheet": null
+    }
+  ],
+  "animations": [
+    {
+      "id": "peluches",
+      "title": "Peluches Géantes",
+      "description": "Pour le plus grand bonheur des grands comme des petits, nos peluches géantes ne manquent pas d'énergie pour divertir et amuser votre public de tout âge.",
+      "image": "assets/peluches.jpg"
+    },
+    {
+      "id": "chateau-gonflable",
+      "title": "Château Gonflable",
+      "description": "Pour une journée festive réussie, notre structure gonflable est l'élément incontournable. Dans notre structure, vos enfants pourront rouler, sauter, tomber, chahuter, glisser, sans aucun risque et ce, sous le regard bienveillant de notre animateur / animatrice.",
+      "image": "assets/chateau-gonflable.jpg",
+      "page": "animation-chateau.html"
+    },
+    {
+      "id": "royaume",
+      "title": "Le Royaume des Enfants",
+      "description": "Créez un univers dédié aux enfants petits et grands ! Imaginez une ambiance féérique, merveilleuse et des instants magiques.",
+      "image": "assets/royaume.jpg"
+    },
+    {
+      "id": "sculptures-ballons",
+      "title": "Sculptures sur ballons",
+      "description": "Imaginez le plaisir des enfants lorsque, par simple torsion et assemblage, des ballons prennent vie dans des formes les plus diverses ! Chaque sculpture terminée, offerte aux enfants, laissera le souvenir d'un moment magique et inoubliable.",
+      "image": "assets/ballons.jpg"
+    }
+  ]
+}

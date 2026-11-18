@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Théâtre de l'Autre Monde - spectacles de marionnettes et théâtre vivant">
+  <title>Contact | Théâtre de l'Autre Monde</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="contact">
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="brand">
+        <a href="index.html" aria-label="Accueil Théâtre de l'Autre Monde">
+          <img class="brand-logo" src="assets/images/logo-tam.png" alt="Logo TAM - Théâtre de l'Autre Monde">
+        </a>
+        <div class="brand-copy">
+          <p class="brand-title"><span class="purple">Théâtre</span> <span class="orange">de l'Autre</span> <span class="red">Monde</span></p>
+          <p class="brand-subtitle">Spectacles multigénérationnels</p>
+        </div>
+      </div>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale"></nav>
+    </header>
+    <main>
+      <section class="page-panel" id="page-content" aria-live="polite"></section>
+
+<section class="page-panel" style="margin-top:16px">
+  <h1 class="page-title">Contactez-nous</h1>
+  <p style="text-align:center; margin:0 auto 24px; max-width:650px">
+    Une question, une demande de programmation ou un projet ? Écrivez-nous.
+  </p>
+  <form class="contact-form" id="contact-form">
+    <label>Nom <input name="name" required autocomplete="name"></label>
+    <label>Adresse e-mail <input type="email" name="email" required autocomplete="email"></label>
+    <label>Objet <input name="subject"></label>
+    <label>Message <textarea name="message" required></textarea></label>
+    <button type="submit">Envoyer le message</button>
+  </form>
+</section>
+
+    </main>
+    <footer class="site-footer" id="site-footer"></footer>
+  </div>
+</body>
+</html>
