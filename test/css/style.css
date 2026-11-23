@@ -17,9 +17,9 @@
   --ribbon: #e67e22;
   --link: #8e44ad;
   /* --vertC: rgb(160, 200, 95); */
-  --vertC: rgb(163, 198, 95);
+  --vertC: #a3c65f;
   /* --vertF: rgb(44,104,44); */
-  --vertF: rgb(19, 113, 59);
+  --vertF: #13713b;
   --purple: #a326b3;
   --orange: #ff9b27;
   --red: #e51e43;
@@ -152,7 +152,7 @@ body {
   box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
-.ribbon::before,
+/* .ribbon::before,
 .ribbon::after {
   content: '';
   position: absolute;
@@ -172,7 +172,7 @@ body {
   right: -18px;
   border-width: 0 0 100% 18px;
   border-color: transparent transparent transparent var(--ribbon);
-}
+} */
 
 .section-title {
   text-align: center;
@@ -203,17 +203,72 @@ body {
   color: #3d2a14;
 }
 
-.welcome-img {
-  border-radius: 8px;
+.container {
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.603);
+  border-radius: 8px;
 }
 
-.welcome-img img {
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+  transition: .5s ease-in-out;
+}
+
+.slide img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
   object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-controls {
+    position: absolute;
+    z-index: 5;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-controls button {
+    padding: 10px;
+    background-color: #f5e6c8d3;
+    border-radius: 8px;
+}
+
+.carousel-dots {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    right: 50%;
+    bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-dots .dot {
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.carousel-dots .active {
+    border: 10px solid var(--vertF) !important;
+}
+.carousel-dots .inactive {
+    border: 10px solid var(--vertC);
 }
 
 .intro-block {
@@ -371,22 +426,23 @@ body {
 .anim-card img {
   width: 100%;
   height: 160px;
-  /* object-fit: cover; */
-  /* display: block; */
+  aspect-ratio: 4/3;
+  display: block;
   border-radius: var(--radius);
 }
 
 .anim-card a {
   text-decoration: none;
+  display: flex;
 }
 .anim-card .body {
-  padding: 1rem 1.1rem 1.2rem;
+  padding: 0rem 0.8rem 0rem;
 }
 
 .anim-card h3 {
   font-size: 1.1rem;
   color: #8e44ad;
-  margin-bottom: 0.4rem;
+  /* margin-bottom: 0.4rem; */
 }
 
 .anim-card p {

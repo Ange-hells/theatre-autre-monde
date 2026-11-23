@@ -6,6 +6,8 @@
   <title>Accueil – Théâtre de l'Autre Monde</title>
   <meta name="description" content="Spectacles de marionnettes multigénérationnels de 6 mois à 99 ans. En salle ou en rue.">
   <link rel="stylesheet" href="css/style.css">
+  <link href="assets/images/faviconTAM3.png" rel="icon">
+  
 </head>
 <body>
   <header class="site-header">
@@ -34,10 +36,37 @@
           <h2>Bienvenue sur le site du Théâtre de l'Autre Monde</h2>
           <p>Bienvenue dans l'Autre Monde… le monde du spectacle bien sûr mais avant tout : le Monde de la diversité !</p>
           <p>À travers ce site, nous souhaitons nous présenter à vous, nous mettre à nu, vous faire découvrir notre Monde ainsi que celui de nos personnages !</p>
-          <p>Pensés, façonnés, personnifiés à notre image, ils vivent, à travers nos histoires, des moments magiques et aiment par-dessus tout les partager.</p>
+          <p>Pensés, façonnés, personnifiés à notre image, ils vivent, </br> à travers nos histoires, des moments magiques et aiment par-dessus tout les partager.</p>
         </div>
-        <div class="welcome-img">
-          <img src="assets/images/Accueil/753f5c_1169590bf6694c2e9dc829e728fb4208.jpg" alt="Spectacle de marionnettes – Théâtre de l'Autre Monde">
+        <div class="container">
+          <div class="carousel">
+            <div class="carousel-inner">
+              <div class="slide">
+                <img src="assets/images/Accueil/Astro.jpg" alt="Image 1">
+              </div>
+              <div class="slide">
+                <img src="assets/images/Accueil/Bergerac.jpg" alt="Image 2">
+              </div>
+              <div class="slide">
+                <img src="assets/images/Accueil/Doudou.jpg" alt="Image 3">
+              </div>
+              <div class="slide">
+                <img src="assets/images/Accueil/EntreActe.jpg" alt="Image 4">
+              </div>
+              <div class="slide">
+                <img src="assets/images/Accueil/Miroir.jpg" alt="Image 5">
+              </div>
+            </div>
+            <!-- Conteneur pour les boutons de navigation -->
+            <div class="carousel-controls">
+              <!-- Bouton pour passer à la diapositive précédente -->
+              <button id="prev">←</button>
+              <!-- Bouton pour passer à la diapositive suivante -->
+              <button id="next">→</button>
+            </div>
+            <!-- Conteneur pour les points de navigation -->
+            <div class="carousel-dots"></div>
+          </div>
         </div>
       </div>
       <p class="text-center" style="font-style:italic; color:#5a4030; margin:1.2rem 0;">Bienvenue donc et bonne découverte !</p>
@@ -49,8 +78,9 @@
   </main>
   <footer class="site-footer">
     © 2002 – 2026 par le Théâtre de l'Autre Monde &nbsp;–&nbsp; Spectacles de marionnettes &nbsp;–&nbsp;
-    <a href="#">Mentions légales</a>
+    <a href="page/mention.html">Mentions légales</a>
   </footer>
-  <script src="js/app.js"></script>
+  <!-- <script src="js/app.js"></script> -->
+  <script src="js/carrousel.js"></script>
 </body>
 </html>
